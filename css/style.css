@@ -1,6 +1,10 @@
-/* RESET */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* general */
+
+.img-box{
+    min-width: 50px;
+    object-fit: cover;
+}
+
+img{
+    width: 100%;
 }
