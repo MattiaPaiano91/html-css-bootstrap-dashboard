@@ -1,10 +1,15 @@
 /* general */
 
 .img-box{
-    min-width: 50px;
+    width: 50px;
     object-fit: cover;
 }
 
 img{
     width: 100%;
 }
+
+header{
+    height: 100px;
+}
+
