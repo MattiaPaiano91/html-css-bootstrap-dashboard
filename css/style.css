@@ -1,15 +1,87 @@
+/* reset */
+ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+li{
+    margin-left: 0px;
+}
+
 /* general */
 
-.img-box{
-    width: 50px;
-    object-fit: cover;
+.height{
+    height: calc(100vh - 70px);
 }
 
-img{
+.height-100{
+    height: 100%;
+}
+
+body > header{
+    height: 70px;
+}
+
+.hover :hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#logo-small > img{
     width: 100%;
+    height: 100%;
+    display: block;
 }
 
-header{
-    height: 100px;
+#logo-small{
+    width: 30px;
+    height: 30px;
 }
 
+#logo{
+    min-width: 30px;
+}
+
+#aside{
+    width: 150px;
+}
+#offcanvasRight{
+    width: 45%;
+}
+
+
+main{
+    height: calc(100vh - 70px);
+    overflow: auto;
+}
+
+main > .row{
+    height: 100%;
+}
+
+.nav-list a{
+    color: black;
+}
+
+.special-bg{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+    color: white;
+}
+
+main li{
+    list-style: none;
+}
+
+main li:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+@media screen and (max-width: 991px) {
+    #aside{
+        width: 75px;
+    }
+    #offcanvasRight{
+        width: 100%;
+    }
+}
