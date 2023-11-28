@@ -49,7 +49,8 @@ body > header{
 }
 
 
-main{
+
+#main{
     height: calc(100vh - 70px);
     overflow: auto;
 }
@@ -76,6 +77,20 @@ main li:hover{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.grey-text{
+    color: gray;
+}
+
+.table-item{
+    border: 1px solid black;
+    padding: 2px 5px;
+    
+    border-radius: 15%;
+}
+
+.table-img {
+    width: 30px;
+}
 
 @media screen and (max-width: 991px) {
     #aside{

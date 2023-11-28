@@ -22,7 +22,6 @@
     <title>Boolean dashboard</title>
   </head>
   <body>
-
     <!-- inzio header -->
 
     <header>
@@ -96,7 +95,6 @@
 
     <!-- inizio main -->
     <main>
-
       <div class="row g-0 height">
         <!-- aside -->
 
@@ -129,15 +127,14 @@
             </nav>
           </div>
         </div>
-        <div class="col overflow-auto">
-
+        <div class="col overflow-auto" id="main">
           <!-- header del main -->
 
           <header class="bg-primary">
             <div class="row align-items-center">
-              <div class="col-sm-12 col-md-4 col-lg-6 text-white">
+              <div class="col-sm-12 col-md-4 col-lg-6 text-white fs-5">
                 <div>
-                  <span class="ms-1">Boolean</span>
+                  <span class="ms-2">Boolean</span>
                   <span
                     class="badge rounded-pill text-bg-dark bg-opacity-50 ms-1"
                     >Piano blaze</span
@@ -168,14 +165,16 @@
                   </span>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-4 col-lg-3 text-white">
-                <p>Studenti online negli ultimi 30 minuti</p>
-                <p>125</p>
+              <div class="col-sm-12 col-md-4 col-lg-3 text-white ps-2 py-2">
+                <div class="mb-2 fs-5">
+                  Studenti online negli ultimi 30 minuti
+                </div>
+                <div class="fs-1">125</div>
               </div>
               <!-- offcanvass -->
 
               <div
-                class="col-lg-3 col-md-4 col-sm-12 col-12 d-flex align-items-baseline order-lg-last order-md-last order-sm-first order-first mb-lg-0 mb-md-0 mb-sm-3 mb-3"
+                class="col-lg-3 col-md-4 col-sm-12 col-12 d-flex align-items-baseline order-lg-last order-md-last order-sm-first order-first my-3"
               >
                 <h4 class="text-white fs-em">Nuovo studente</h4>
 
@@ -435,69 +434,140 @@
 
           <div class="row">
             <div class="col-12 col-lg-8">
-              <div class="">
-
+              <div>
                 <!-- tabella -->
 
-                <table class="table-responsive">
-                  <thead>
-                    <tr>
-                      <th scope="col">Nome</th>
-                      <th scope="col">Data inizio</th>
-                      <th scope="col">Roi</th>
+                <div class="table-responsive border rounded-2 my-3 ms-2">
+                  <div class="border-bottom p-2 text-bg-light">
+                    <h2>Prossime classi</h2>
+                  </div>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Nome</th>
+                        <th>Data inizio</th>
+                        <th>ROI</th>
+                        <th>Stato</th>
+                        <th>Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="w-50"><span><img class="table-img me-2" src="./img/class-avatar.jpg" alt=""></span>Classe 75</td>
+                        <td>15 feb 2021</td>
+                        <td>20%</td>
+                        <td>pillola</td>
+                        <td class="grey-text fs-6">
+                          <div class="d-inline-block me-2 table-item">
+                            <i class="fa-solid fa-pen"></i>
+                          </div>
+                          <div class="d-inline-block table-item">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w-50"><span><img class="table-img me-2" src="./img/class-avatar.jpg" alt=""></span>Classe 75</td>
+                        <td>15 feb 2021</td>
+                        <td>20%</td>
+                        <td>pillola</td>
+                        <td class="grey-text fs-6">
+                          <div class="d-inline-block me-2 table-item">
+                            <i class="fa-solid fa-pen"></i>
+                          </div>
+                          <div class="d-inline-block table-item">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w-50"><span><img class="table-img me-2" src="./img/class-avatar.jpg" alt=""></span>Classe 75</td>
+                        <td>15 feb 2021</td>
+                        <td>20%</td>
+                        <td>pillola</td>
+                        <td class="grey-text fs-6">
+                          <div class="d-inline-block me-2 table-item">
+                            <i class="fa-solid fa-pen"></i>
+                          </div>
+                          <div class="d-inline-block table-item">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w-50"><span><img class="table-img me-2" src="./img/class-avatar.jpg" alt=""></span>Classe 75</td>
+                        <td>15 feb 2021</td>
+                        <td>20%</td>
+                        <td>pillola</td>
+                        <td class="grey-text fs-6">
+                          <div class="d-inline-block me-2 table-item">
+                            <i class="fa-solid fa-pen"></i>
+                          </div>
+                          <div class="d-inline-block table-item">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w-50"><span><img class="table-img me-2" src="./img/class-avatar.jpg" alt=""></span>Classe 75</td>
+                        <td>15 feb 2021</td>
+                        <td>20%</td>
+                        <td>pillola</td>
+                        <td class="grey-text fs-6">
+                          <div class="d-inline-block me-2 table-item">
+                            <i class="fa-solid fa-pen"></i>
+                          </div>
+                          <div class="d-inline-block table-item">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w-50"><span><img class="table-img me-2" src="./img/class-avatar.jpg" alt=""></span>Classe 75</td>
+                        <td>15 feb 2021</td>
+                        <td>20%</td>
+                        <td>pillola</td>
+                        <td class="grey-text fs-6">
+                          <div class="d-inline-block me-2 table-item">
+                            <i class="fa-solid fa-pen"></i>
+                          </div>
+                          <div class="d-inline-block table-item">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w-50"><span><img class="table-img me-2" src="./img/class-avatar.jpg" alt=""></span>Classe 75</td>
+                        <td>15 feb 2021</td>
+                        <td>20%</td>
+                        <td>pillola</td>
+                        <td class="grey-text fs-6">
+                          <div class="d-inline-block me-2 table-item">
+                            <i class="fa-solid fa-pen"></i>
+                          </div>
+                          <div class="d-inline-block table-item">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w-50"><span><img class="table-img me-2" src="./img/class-avatar.jpg" alt=""></span>Classe 75</td>
+                        <td>15 feb 2021</td>
+                        <td>20%</td>
+                        <td>pillola</td>
+                        <td class="grey-text fs-6">
+                          <div class="d-inline-block me-2 table-item">
+                            <i class="fa-solid fa-pen"></i>
+                          </div>
+                          <div class="d-inline-block table-item">
+                            <i class="fa-solid fa-trash"></i>
+                          </div>
+                        </td>
+                      </tr>
                       
-                      <th scope="col">Handle</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td colspan="2">Larry the Bird</td>
-                      <td>@twitter</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td colspan="2">Larry the Bird</td>
-                      <td>@twitter</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                    </tr>
-                  </tbody>
-                </table>
+                    </tbody>
+                  </table>
+                </div>
               </div>
               <div class="box border rounded-2 text-bg-light ms-2">
                 <div class="border-bottom p-2">
@@ -650,9 +720,11 @@
               <div class="box border rounded-2 me-2 p-3">
                 <div class="img-box-2 border rounded-2 pb-3">
                   <img src="./img/stats.jpeg" class="w-100" alt="Statistiche" />
-                  
+
                   <h5 class="ms-3">Utenti attivi</h5>
-                  <p class="ms-3">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                  <p class="ms-3">
+                    Lista degli utenti attivi in piattaforma nell'ultimo mese
+                  </p>
                   <ul>
                     <li class="border-bottom py-2">
                       <span class="ms-3 mb-3">Gennaio:1200</span>
