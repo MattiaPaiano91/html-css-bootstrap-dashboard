@@ -19,10 +19,12 @@
 
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>Boolean dashboard</title>
   </head>
   <body>
+
     <!-- inzio header -->
+
     <header>
       <div class="container-fluid align-middle py-3">
         <div class="row align-items-center">
@@ -94,6 +96,7 @@
 
     <!-- inizio main -->
     <main>
+
       <div class="row g-0 height">
         <!-- aside -->
 
@@ -127,7 +130,9 @@
           </div>
         </div>
         <div class="col overflow-auto">
+
           <!-- header del main -->
+
           <header class="bg-primary">
             <div class="row align-items-center">
               <div class="col-sm-12 col-md-4 col-lg-6 text-white">
@@ -168,14 +173,13 @@
                 <p>125</p>
               </div>
               <!-- offcanvass -->
-              
-              <!-- Terza colonna -->
+
               <div
-                class="col-lg-3 col-md-4 col-sm-12 col-12 d-flex align-items-baseline order-lg-last order-md-last order-sm-first order-first mb-lg-0 mb-md-0 mb-sm-3 mb-3 "
+                class="col-lg-3 col-md-4 col-sm-12 col-12 d-flex align-items-baseline order-lg-last order-md-last order-sm-first order-first mb-lg-0 mb-md-0 mb-sm-3 mb-3"
               >
                 <h4 class="text-white fs-em">Nuovo studente</h4>
 
-                <!-- Offcanva -->
+                <!-- Offcanvas -->
                 <button
                   class="btn ms-3 border-white white-color"
                   type="button"
@@ -429,16 +433,19 @@
 
           <!-- fine header del main -->
 
-          <div class="row g-">
+          <div class="row">
             <div class="col-12 col-lg-8">
-              <div class="box">
+              <div class="">
+
                 <!-- tabella -->
+
                 <table class="table-responsive">
                   <thead>
                     <tr>
                       <th scope="col">Nome</th>
                       <th scope="col">Data inizio</th>
                       <th scope="col">Roi</th>
+                      
                       <th scope="col">Handle</th>
                     </tr>
                   </thead>
@@ -492,8 +499,13 @@
                   </tbody>
                 </table>
               </div>
-              <div class="box">
+              <div class="box border rounded-2 text-bg-light ms-2">
+                <div class="border-bottom p-2">
+                  <h2 class="">F.A.Q.</h2>
+                </div>
+
                 <!-- accordion -->
+
                 <div
                   class="accordion accordion-flush"
                   id="accordionFlushExample"
@@ -508,7 +520,7 @@
                         aria-expanded="false"
                         aria-controls="flush-collapseOne"
                       >
-                        Accordion Item #1
+                        Come aggiungere un nuovo studente?
                       </button>
                     </h2>
                     <div
@@ -534,7 +546,7 @@
                         aria-expanded="false"
                         aria-controls="flush-collapseTwo"
                       >
-                        Accordion Item #2
+                        Come posso accedere alle informazioni del mio account?
                       </button>
                     </h2>
                     <div
@@ -561,7 +573,7 @@
                         aria-expanded="false"
                         aria-controls="flush-collapseThree"
                       >
-                        Accordion Item #3
+                        Posso usare questa dashboard da mobile?
                       </button>
                     </h2>
                     <div
@@ -585,12 +597,13 @@
               </div>
             </div>
             <div class="col-12 col-lg-4">
-              <div class="box">
-                <div>
+              <div class="box border rounded-2 my-3 me-2">
+                <div class="border-bottom text-bg-light p-2">
                   <h2>Todo</h2>
                 </div>
-                <div>
+                <div class="p-2">
                   <!-- ceckbox -->
+
                   <ul class="list-group">
                     <li class="list-group-item">
                       <input
@@ -602,7 +615,7 @@
                       <label
                         class="form-check-label stretched-link"
                         for="firstCheckboxStretched"
-                        >First checkbox</label
+                        >Kickoff nuove classi</label
                       >
                     </li>
                     <li class="list-group-item">
@@ -615,7 +628,7 @@
                       <label
                         class="form-check-label stretched-link"
                         for="secondCheckboxStretched"
-                        >Second checkbox</label
+                        >Lezione su bootstrap 5 in classe #75</label
                       >
                     </li>
                     <li class="list-group-item">
@@ -628,24 +641,31 @@
                       <label
                         class="form-check-label stretched-link"
                         for="thirdCheckboxStretched"
-                        >Third checkbox</label
+                        >Controllare username Github studenti</label
                       >
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="box">
-                <div class="img-box-2">
-                  <img src="" alt="Statistiche" />
+              <div class="box border rounded-2 me-2 p-3">
+                <div class="img-box-2 border rounded-2 pb-3">
+                  <img src="./img/stats.jpeg" class="w-100" alt="Statistiche" />
+                  
+                  <h5 class="ms-3">Utenti attivi</h5>
+                  <p class="ms-3">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                  <ul>
+                    <li class="border-bottom py-2">
+                      <span class="ms-3 mb-3">Gennaio:1200</span>
+                    </li>
+                    <li class="border-bottom py-2">
+                      <span class="ms-3 mb-3">Febbraio:800</span>
+                    </li>
+                    <li class="border-bottom py-2">
+                      <span class="ms-3 mb-3">Marzo:1500</span>
+                    </li>
+                  </ul>
+                  <a href="#" class="ms-3">visualizza report approfondito</a>
                 </div>
-                <h3>Utenti attivi</h3>
-                <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
-                <ul>
-                  <li>Gennaio:1200</li>
-                  <li>Febbraio:800</li>
-                  <li>Marzo:1500</li>
-                </ul>
-                <a href="#">visualizza report approfondito</a>
               </div>
             </div>
           </div>
